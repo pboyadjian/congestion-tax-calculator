@@ -1,0 +1,10 @@
+spring:
+  main:
+    banner-mode: OFF
+
+  jackson:
+    serialization:
+      WRITE_DATE_TIMESTAMPS_AS_NANOSECONDS: false
+      WRITE_ENUMS_USING_TO_STRING: true
+    deserialization:
+      FAIL_ON_UNKNOWN_PROPERTIES: false
