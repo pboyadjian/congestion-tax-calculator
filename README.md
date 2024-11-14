@@ -19,7 +19,7 @@ This guide provides instructions to test and run the Spring Boot application usi
 
 ### Step 1: Clone the repository
 
-First, build the application to ensure that all dependencies are resolved and code is compiled:
+First, clone the repository:
 
 ```bash
 git clone <repository-url>
@@ -28,7 +28,7 @@ cd <repository-directory>
 
 ### Step 2: Build the Application
 
-Ensure that you are in the root directory of the project:
+Ensure that you are in the root directory of the project. Build the application to ensure that all dependencies are resolved and code is compiled:
 
 ```bash
 ./mvnw clean compile
